@@ -1,0 +1,78 @@
+#content_cabecera{border-radius:10px 10px 0px 0px;background-color:#00a665;padding:10px 15px;}
+.tabla{border:0px;}
+.cabecera{color:#fff; vertical-align:middle;text-align:center;border-right:1px solid #fff;}
+.cabecera:last-child{border-right:0px;}
+.cabecera.nivel2{padding:5px 0px;}
+.detalle{padding:10px 5px;text-align:center;font-size:15px;color:#808080;}
+.detalle.impar{background-color:#f8f6ff;}
+.detalle.barrio{text-align:left;padding-left:10px;}
+
+
+#buscador{margin-bottom:20px;}
+.campo{display:inline-block;width:100%;}
+.campo select{padding:5px 10px;border-radius:5px;border:1px solid #ccc;}
+.btn{display:inline-block;border-radius:5px;border:1px solid #fff;padding:7px 10px;min-width:100px;}
+.btn.active{background-color:#00a665;}
+#loading{width:100%;text-align:center;}
+#cargarmas{width:100%;text-align:center;}
+#cargarmas a{padding: 10px 15px;background-color: #00a665;color: #fff;font-size: 16px;margin-top: 20px;display: inline-block;border-radius: 5px;box-shadow: 0 2px 6px 0 rgba(0,0,0,.5);font-weight: 600;text-decoration:none;}
+#cargarmas a{background-color:#3ead50;}
+
+@media(min-width:320px){
+	#listado-actividades .c-actividades{
+		/*text-align: center;*/
+	}
+	#listado-actividades .o-actividad{
+		width: 90%;
+		text-align: left;
+	}
+	.campo{width:100%;margin-bottom:10px;}
+	.campo select{width:100%;}
+	.campo.centro{text-align:center;}
+}
+
+
+@media(min-width:425px){
+	#listado-actividades .c-actividades{
+		/*text-align: center;*/
+	}
+	#listado-actividades .o-actividad{
+		width: 90%;
+		text-align: left;
+	}
+	.campo{width:100%;margin-bottom:10px;}
+	.campo select{width:100%;}
+	.campo.centro{text-align:center;}
+}
+@media(min-width:768px){
+	#listado-actividades .o-actividad{
+		width: 355px;
+	}
+	#listado-actividades #listado-actividades ul{
+		/*text-align: left;*/
+		margin: 0 auto;
+		display: table;
+	}
+	.campo{width:100%;margin-bottom:10px;}
+	.campo select{width:100%;}
+	.campo.centro{text-align:center;}
+}
+@media(min-width:992px){
+	#listado-actividades .o-actividad{
+		width: 290px;
+	}
+	
+	.campo{width:30%;margin-bottom:10px;}
+	.campo select{width:100%;}
+	.campo.centro{width:100%;text-align:left;}
+}
+@media(min-width:1200px){
+	#listado-actividades .o-actividad{
+		width: 300px;
+	}
+	
+	.campo{width:30%;margin-bottom:10px;}
+	.campo select{width:100%;}
+	.campo.centro{width:100%;text-align:left;}
+}
+

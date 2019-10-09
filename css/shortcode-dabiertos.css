@@ -1,0 +1,71 @@
+#buscador{vertical-align: middle;margin-bottom:20px;background-color: rgba(240,240,240,0.4);padding: 20px;border-radius: 10px;box-shadow: 0 2px 4px 0 rgba(0,0,0,.5);width: 100%;
+text-align: center;}
+.campo{display:inline-block;width:100%;margin:0px 10px 20px 10px;}
+.campo select{padding:5px 10px;border:1px solid #333 !important;height:40px !important; margin: 0 auto}
+
+
+.mk-box-icon-2-image{
+	margin: 0 auto;
+}
+.mk-box-icon-2-content{
+	text-align: center;
+}
+.resultados {
+	padding: 10px 0;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-flex-wrap: nowrap;
+	-ms-flex-wrap: nowrap;
+	flex-wrap: nowrap;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-align-content: stretch;
+	-ms-flex-line-pack: stretch;
+	align-content: stretch;
+	-webkit-align-items: stretch;
+	-ms-flex-align: stretch;
+	align-items: stretch;
+}
+
+@media all and (max-width: 39rem) {
+	.filtros {		
+		-webkit-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+		position: relative;
+	}
+	.filtros__columnas:first-child {
+		flex: 1 0 100%;
+	}
+	
+	input[name=nombre] {
+		max-width: unset;
+		width: 100%;
+	}
+	#filtros__buscar {
+		margin-top: 20px;
+	}
+	.filtros__columnas:not(:first-child) {
+		position: absolute;
+		margin:0;
+		bottom:20px;
+		right: 20px;
+	}
+}
+
+@media all and (max-width: 540px) {
+	.resultado__cabecera {
+		flex-direction: unset;
+	}
+	.resultado__estado {
+		width: unset;
+	}
+	.resultado__nombre{
+		padding: 40px 15px;
+	}
+}
